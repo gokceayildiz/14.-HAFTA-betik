@@ -1,0 +1,34 @@
+1. KISIM
+
+a= ['hurlika', 'gonca', 'nasiba', 'gulsenem']
+for (let i=0;i<a.length;i++){
+console.log(a[i]);
+alert(i);
+}
+
+çıktısı = 0 1 2 olur
+
+
+2. KISIM
+
+// gulsenem harfleri tek tek ekrana veriyor g u l s e n e m
+x=prompt('isim giriniz');
+
+if (x=='gulsenem') {
+for (let i=0;i<x.length;i++){
+
+alert(x[i]);
+}
+  
+
+// hurlika da bir bir yanına ekleyerek ekrana veriyor h hu hur hurl hurli hurlik hurlika
+} else if (x=='hurlika') {
+str=""
+for (let i=0;i<x.length;i++){
+str+=x[i]
+alert(str);
+ 
+} } else {
+alert('yanlıs isim girildi');
+  
+}

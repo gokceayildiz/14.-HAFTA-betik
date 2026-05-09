@@ -32,3 +32,26 @@ alert(str);
 alert('yanlıs isim girildi');
   
 }
+
+
+3. KISIM
+
+// hurlika tersten yazıldı
+
+let x = prompt('İsim giriniz:');
+
+if (x === 'gulsenem') {
+    for (let i = 0; i < x.length; i++) {
+        alert(x[i]);
+    }
+
+} else if (x === 'hurlika') {
+    let str = "";
+    for (let i = x.length - 1; i >= 0; i--) {
+        str += x[i]; 
+        alert(str);
+    }
+
+} else {
+    alert('Yanlış isim girildi');
+}
